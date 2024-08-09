@@ -1,0 +1,149 @@
+body {
+  font-family: "Helvetica Neue", Arial, sans-serif;
+  background-color: #eceff1;
+  margin: 0;
+  padding: 0;
+}
+
+.header {
+  text-align: center;
+  background-color: #546e7a;
+  padding: 20px;
+  color: white;
+  font-size: 24px;
+}
+
+#logo-image {
+  width: 40px;
+  margin-right: 15px;
+}
+
+/* Navbar */
+.navbar-container {
+  display: flex;
+  justify-content: center;
+  background-color: #455a64;
+  padding: 10px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+}
+
+.navbar-container a {
+  text-decoration: none;
+  color: rgb(96, 96, 96);
+  margin: 0 15px;
+  font-weight: bold;
+}
+
+.navbar-container a:hover {
+  color: #ffab40;
+}
+
+/* Homepage/Books */
+.books {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-around;
+  background-color: #cfd8dc;
+  padding: 20px;
+}
+
+.book-card {
+  width: 300px;
+  margin: 20px;
+  background-color: white;
+  border: 1px solid #b0bec5;
+  border-radius: 10px;
+  box-shadow: 0 4px 15px rgba(0, 0, 0, 0.1);
+  overflow: hidden;
+  transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+.book-card:hover {
+  transform: translateY(-10px);
+  box-shadow: 0 8px 20px rgba(0, 0, 0, 0.15);
+}
+
+.book-image-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 250px;
+  background-color: #eceff1;
+}
+
+.book-image {
+  max-width: 100%;
+  max-height: 100%;
+  object-fit: cover;
+}
+
+.book-details {
+  padding: 15px;
+  text-align: center;
+  font-size: 14px;
+}
+
+.book-link {
+  text-decoration: none;
+  color: #546e7a;
+  font-weight: bold;
+}
+
+.book-link:hover {
+  color: #ffab40;
+}
+
+/* Single Book */
+.single-book {
+  margin: 40px;
+  padding: 20px;
+  background-color: white;
+  border-radius: 10px;
+  box-shadow: 0 4px 15px rgba(0, 0, 0, 0.1);
+}
+
+.single-book-details {
+  text-align: center;
+  font-size: 18px;
+  color: #37474f;
+}
+
+/* Forms */
+.form-container {
+  margin: 60px;
+  padding: 20px;
+  background-color: white;
+  border-radius: 8px;
+  box-shadow: 0 4px 15px rgba(0, 0, 0, 0.1);
+}
+
+.form-header {
+  font-weight: bold;
+  font-size: 20px;
+  color: #37474f;
+  margin-bottom: 20px;
+}
+
+.form-group {
+  margin: 10px 0;
+}
+
+/* Account */
+.account {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  background-color: white;
+  padding: 30px;
+  border-radius: 8px;
+  box-shadow: 0 4px 15px rgba(0, 0, 0, 0.1);
+}
+
+.account-header {
+  text-align: center;
+  text-decoration: underline;
+  padding: 12px;
+  font-size: 22px;
+  color: #37474f;
+}
